@@ -1,0 +1,117 @@
+@import "../../vars.css";
+
+.container {
+  margin-top: 76px;
+  color: var(--color-text);
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.title {
+  color: var(--color-text);
+  font-size: 35px;
+  font-weight: 700;
+  padding-bottom: 20px;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+}
+
+.content {
+  margin-top: 37px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.Items {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 90px; 
+  justify-content: center;
+}
+
+.Item {
+  background-color: var(--color-secondary);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+  width: 100%; 
+  max-width: 410px; 
+  text-align: center;
+}
+
+.Item:hover {
+  transform: translateY(-10px);
+}
+
+.Item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover; 
+}
+
+.ItemText {
+  padding: 20px; 
+}
+
+.ItemText h3 {
+  font-size: 22px; 
+  margin-bottom: 10px;
+}
+
+.ItemText p {
+  font-size: 18px; 
+  color: var(--color-link);
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.ItemText p:hover {
+  color: var(--color-link-hover);
+}
+
+
+@media screen and (max-width: 768px) {
+  .Items {
+    gap: 20px; 
+  }
+  .title{
+    font-size: 25px;
+  }
+  .Item {
+    max-width: 90%; 
+  }
+
+  .Item img {
+    height: 150px; 
+  }
+
+  .ItemText {
+    padding: 15px; 
+  }
+
+  .ItemText h3 {
+    font-size: 18px; 
+  }
+
+  .ItemText p {
+    font-size: 16px; 
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .ItemText {
+    padding: 10px; 
+  }
+
+  .ItemText h3 {
+    font-size: 16px; 
+  }
+
+  .ItemText p {
+    font-size: 14px; 
+  }
+}

@@ -1,0 +1,50 @@
+[
+    {
+      "title": "HTML",
+      "imageSrc": "assets/html_icon.png"
+    },
+    {
+      "title": "CSS",
+      "imageSrc": "assets/css_icon.png"
+    },
+    {
+      "title": "JavaScript",
+      "imageSrc": "assets/JS_icon.png"
+    },
+    {
+      "title": "ReactJS",
+      "imageSrc": "assets/react_icon.png"
+    },
+    {
+      "title": "C",
+      "imageSrc": "assets/C_icon.png"
+    },
+    {
+      "title": "Tenserflow",
+      "imageSrc": "assets/tenserflow_icon.png"
+    },
+    {
+      "title": "Google Colab",
+      "imageSrc": "assets/colab_icon.png"
+    },
+    {
+      "title": "Python",
+      "imageSrc": "assets/python_icon.png"
+    },
+    {
+      "title": "DBMS",
+      "imageSrc": "assets/DBMS_icon.png"
+    },
+    {
+      "title": "ML",
+      "imageSrc": "assets/ml_icon.png"
+    },
+    {
+      "title": "Soft Computing",
+      "imageSrc": "assets/neural_icon.png"
+    },
+    {
+      "title": "Data Structures",
+      "imageSrc": "assets/dsa_icon.png"
+    }
+  ]
